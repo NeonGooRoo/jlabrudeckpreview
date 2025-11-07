@@ -1,0 +1,57 @@
+
+export const translations = {
+  en: {
+    appTitle: 'Anki Card Previewer',
+    appSubtitle: 'Review your Japanese vocabulary cards directly from Google Sheets.',
+    randomCardButton: 'Show Random Card',
+    loadingMessage: 'Loading cards from spreadsheet...',
+    errorMessageHeader: 'Error',
+    noCardsMessage: 'No cards available to display.',
+    githubLink: 'View on GitHub',
+    front: 'Front',
+    back: 'Back',
+    note: 'Note:',
+    sentenceJapanese: 'Sentence (Japanese):',
+    russianExplanation: 'Russian Explanation:',
+    externalLink: 'External Link (Russian):',
+    
+    submitFeedbackHeader: 'Submit a Comment or Edit',
+    submitButton: 'Submit',
+    feedbackSubmitted: 'Link opened!',
+    feedbackInstructions: 'This will open a pre-filled Google Form in a new tab.',
+
+    explanationFeedbackHeader: 'Explanation Edit',
+    explanationFeedbackPlaceholder: (cardId: string) => `Suggest a correction for card ${cardId}...`,
+    resourceFeedbackHeader: 'Resource Link Suggestion',
+    resourceFeedbackPlaceholder: (cardId: string) => `Share a useful link for ${cardId}...`,
+    generalFeedbackHeader: 'General Suggestion',
+    generalFeedbackPlaceholder: (cardId: string) => `Other comments about card ${cardId}...`,
+  },
+  ru: {
+    appTitle: 'Просмотрщик карточек Anki',
+    appSubtitle: 'Просматривайте свои японские словарные карточки прямо из Google Таблиц.',
+    randomCardButton: 'Случайная карточка',
+    loadingMessage: 'Загрузка карточек из таблицы...',
+    errorMessageHeader: 'Ошибка',
+    noCardsMessage: 'Нет доступных карточек для отображения.',
+    githubLink: 'Посмотреть на GitHub',
+    front: 'Лицевая сторона',
+    back: 'Обратная сторона',
+    note: 'Заметка:',
+    sentenceJapanese: 'Предложение (японский):',
+    russianExplanation: 'Объяснение на русском:',
+    externalLink: 'Внешняя ссылка (русский):',
+
+    submitFeedbackHeader: 'Отправить комментарий или правку',
+    submitButton: 'Отправить',
+    feedbackSubmitted: 'Ссылка открыта!',
+    feedbackInstructions: 'Это откроет предварительно заполненную Google Форму в новой вкладке.',
+
+    explanationFeedbackHeader: 'Правка объяснения',
+    explanationFeedbackPlaceholder: (cardId: string) => `Предложите исправление для карточки ${cardId}...`,
+    resourceFeedbackHeader: 'Предложение ссылки',
+    resourceFeedbackPlaceholder: (cardId: string) => `Поделитесь полезной ссылкой для ${cardId}...`,
+    generalFeedbackHeader: 'Общий комментарий',
+    generalFeedbackPlaceholder: (cardId: string) => `Другие комментарии о карточке ${cardId}...`,
+  }
+};

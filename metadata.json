@@ -1,0 +1,5 @@
+{
+  "name": "Anki Card Previewer",
+  "description": "A web application to preview Anki cards from a Google Spreadsheet. Users can view random cards, flip them, and submit feedback or edits via a pre-configured Google Form. It also uses the Gemini API to generate additional example sentences for study.",
+  "requestFramePermissions": []
+}
